@@ -1,0 +1,39 @@
+/*프로젝트를 통해 학습한점*/
+
+.banner{
+    반응형 웹디자인 기술은 퍼센트 값에의존
+    height: 100vh;
+    =>스크린의 너비값에 꽉 차는 헤드라인
+    -vh : 높이값의 100분의 1의 :  높이값이 900px일때 1vh는 9px
+    -rem: "r"은 바로 "root(최상위)"를 뜻합니다. 최상위 태그(요소)에 지정한 것을 기준으로 변함
+    -em : 기준이 되는 값을 지정된 배수로 변환해 표현한 크기
+            (기준: 현재 스타일 지정 요소의 font-size 값)
+}
+
+.btn{
+    text-transform: uppercase;
+
+    한글에서는 의미가 없는 속성이다 
+    none : 입력된 그대로 출력 .
+    capitalize : 단어의 첫번째 글자를 대문자로 바꾼다.
+    uppercase : 모든 글자를 대문자로 바꾼다.
+    lowercase : 모든 글자를 소문자로 바꿉니다.
+    initial : 기본값으로 설정합니다.
+    inherit : 부모 요소의 속성값을 상속받습니다.
+
+    Chrome : 1.0+
+    Firefox : 1.0+
+    Internet Explorer : 4.0+
+    Opera : 7.0+
+    Safari : 1.0+
+
+
+}
+
+.btn:hover{
+    letter-spacing:6px;
+
+    hover 를 가지고 letter-spacing 을 늘려주면 동적인 버튼 생성가능
+}
+
+
