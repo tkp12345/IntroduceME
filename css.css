@@ -62,14 +62,22 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: 0.5s;
-   
- 
+  transition-property: all;
+  transition-duration: 0.5s;  
 }
-
+header.sticky
+{
+ background:#fff;
+ padding: 10px 100px;
+ box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
 .remove{
- display: none;
-  
+    transform:translateY(-100px);
+    transition-property: all;
+    transition-duration: 0.5s; 
+ 
+ background: #fff;
+ 
 }
 
 header.sticky{

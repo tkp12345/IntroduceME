@@ -12,7 +12,6 @@ window.addEventListener('scroll',()=>{
 
 setInterval(()=>{
     if(scroll){
-        console.log(currentScroll)
         playScrolled();
         scroll=false;
     }
@@ -25,13 +24,14 @@ function playScrolled(){
       return;
   }
 
-  if(lastScroll< currentScroll  ){
+  if(lastScroll< currentScroll ){
   /*Scroll down */
     header.classList.add('remove');
   }else{
       if(lastScroll > currentScroll )
      /*Scroll up */
       header.classList.remove('remove');
+      header.classList.add('sticky');
     }
 
   lastScroll = currentScroll; 
