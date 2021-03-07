@@ -1,5 +1,8 @@
 /*프로젝트를 통해 학습한점*/
-
+body{
+    min-height: 1000px;
+    full creen  스크롤 
+}
 .banner{
     반응형 웹디자인 기술은 퍼센트 값에의존
     height: 100vh;
@@ -34,6 +37,63 @@
     letter-spacing:6px;
 
     hover 를 가지고 letter-spacing 을 늘려주면 동적인 버튼 생성가능
+    글자 길이에 따라 버튼이 늘어난다
 }
 
+.header {
+    justify-content: space-between;
+    사이드 에 로고와 nav 바를 거리두기위해 사용 
+}
+
+header .logo span{
+    <a href="#" class="logo">Main<span>.</span></a>
+    중간 글씩의 색상이나 테마를 바꿀때는 <span> 태그 처리를 한다
+
+    color:rgb(4, 240, 130);
+}
+
+
+header .navigation{
+<ul class="nav">
+ul 을 가로처리는 flex로 한다
+position: relative;
+relative를 준이유는 어떤 요소가 들어갈지 모르니 범용성 차원
++ 주면태그에 영향을 끼치지 않으면서 위치 조정 
+}
+
+js.js
+
+*스크롤 감지 헤더 표현
+고정헤더의 불편함을 탈피하기위해 스크롤 감지에따른 헤더를 보여주고 싶었습니다
+
+스크롤 내릴때 => 사용자 컨텐츠 탐색 => 헤더감추기
+스크롤 위로올릴때 => 사용자 컨테츠 탐색종료 => 헤더 나타내기
+
+---------------------------------------------------------------
+
+정해진 시간동안 스크롤 이벤트를 확인하여 조건에 맞게 헤더를 변경한다
+
+1.헤더 요소에 position: fixed 를 설정
+2.스크롤 방향이 아래로 향한다면 헤더 요소에 클래스를 추가하고 이 클래스에 의해 헤더가 위로 사라진다.
+ /* 윈도우의 높이 */
+ window.innerHeight;  
+/* 스크롤 값 */
+ window.scrollY;  
+ /* */
+ scrollTop
+
+3. 스크롤 조건
+ 스크롤 내릴때 : 현재스크롤 < 헤더높이 && 전의스크롤 < 현재스크롤   
+
+ 스크롤 올릴때 : 현재스크롤 + 
+
+*주의 =>  scroll 이벤트는 짧은 시간 자주 발생하는 이벤트이므로 성능 부분신경
+*주의 => window.scrollY 은 IE  인식안함 인식하는 window.pageYOffset 
+
+학습개념 🧑
+scrollHeight : 스크롤바 높이를 뺀 내용 전체의 높이
+
+clientHeight : 스크롤바 보는 창높이
+
+offsetHeight : 스크롤바 높이를 포함한 가시적인 높이(패딩 + 보더)
 
