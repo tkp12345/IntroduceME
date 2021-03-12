@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: "Do Hyeon", sans-serif;
   letter-spacing: 0.1em;
+  scroll-behavior: smooth;
 }
 
 body{
@@ -123,3 +124,153 @@ header .navigation li a:hover
 {
     color:rgb(4, 240, 130);
 }
+
+
+section
+{
+  padding: 100px;
+}
+.row
+{
+  position: relative;
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+}
+
+.row .content-50{
+  position: relative;
+  width: 48%;
+}
+
+.title-Text{
+  color: #111;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.title-Text span
+{
+  color: rgb(4, 240, 130);
+  font-size: 2.5rem ;
+  font-weight: 600;
+}
+
+.row .content-50 .imgBx{
+  position: relative;
+  width : 100%;
+  min-height: 300px;
+}
+
+.row .content-50 .imgBx img
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title{
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu .content{
+  display: flex;
+  justify-content: center;
+  
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.menu .content .box
+{
+  width: 340px;
+  margin: 20px;
+  border: 15px solid #fff;
+  box-shadow: 0 5px 35px rgba(0,0,0,0.5);
+}
+
+.menu .content .box .imgBx
+{
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.menu .content .box .imgBx img
+{
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.menu .content .box .text{
+  padding: 15px 0 5px;
+}
+
+.master .content{ 
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.master .content .box{
+  width: 250px;
+  margin:15px
+} 
+
+.master .content .box .imgBx{
+  position: relative;
+  width:100%;
+  height:300px;
+}
+
+.master .content .box .imgBx img
+{
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.master .content .box .text
+{
+  padding : 15px 0 15px;
+}
+
+.master .content .box .text h3
+{
+  font-weight: 400;
+  color: #111;
+}
+
+.wecoing{
+  background: url();
+
+}
+
+.white .titleText{
+  color()
+}
+
+
+@media (max-width: 991px){
+  header{
+    padding: 10px 20px;
+  }
+}
+
