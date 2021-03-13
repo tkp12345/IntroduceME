@@ -88,6 +88,13 @@
  
   ✔ 반응형 제작시 padding 조절하여 화면 비율을 유지한다
 
+
+   ✔ blur 를 사용한 이미지 hover
+
+     backdrop-filter: blur(px) 를이용하여 
+     선택자를 추가하여 이미지 hover시 블러를 줄수있다 
+
+
 js.js
 
     *스크롤 감지 헤더 표현
