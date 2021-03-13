@@ -1,59 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>안녕하세요 위코잉 입니다</title>
     <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
+
 <body>
     <header>
-        <a href="#" class="logo">Main<span>.</span></a>
+        <a href="#" class="logo"><img src="img/wecoing-logo.png"></a>
+        <div class="menuToggle" onclick="Menu();"></div>
         <ul class="nav">
-            <li><a href="#banner">Home</a></li>
-            <li><a href="#banner">About</a></li>
-            <li><a href="#banner">Menu</a></li>
-            <li><a href="#banner">Expert</a></li>
-            <li><a href="#banner">Contact</a></li>
+            <li><a href="#banner">메인</a></li>
+            <li><a href="#banner">위코잉이란?</a></li>
+            <li><a href="#banner">사이트소개</a></li>
+            <li><a href="#banner">마스터</a></li>
+            <li><a href="#banner">후기</a></li>
         </ul>
     </header>
 
-    <section class ="banner" id="banner">
+    <section class="banner" id="banner">
         <div class="content">
             <h2>교육 기회의 평등을 지향합니다</h2>
-            <p>모두에게 평등한 교육서비스를 주제로한 창업경진 대회 아디이어로
-                위코딩은 설립되었습니다
+            <p>모두에게 평등한 교육서비스 위코잉
             </p>
             <a href="#" class="btn">Our Menu</a>
         </div>
     </section>
 
-    <section class="about" id="about"> 
+    <section class="about" id="about">
         <div class="row">
             <div class="content-50">
                 <h2 class=title-Text>
-                    <span>위코잉</span>이란?</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, deleniti molestiae adipisci dolores nesciunt sequi sit atque suscipit numquam neque iste eius dolore non hic recusandae! Ad aperiam soluta veniam!
-                <br><br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur consequuntur quos officia repudiandae in illum voluptatibus cumque at aut distinctio iure quod commodi, voluptate tempore sunt magni iste perferendis reiciendis.
-            </p>
-        </div>
+                    <span>위코잉</span>이란?
+                </h2>
+                <div class="title-Box">
+                    <p>2020년 참가한 창업경진대회 공모 발표작을 모티브로
+                        구현하게된 교육 플랫폼 입니다
+                        <br><br>
+                        위코잉은 코잉을 배우고싶은 ,코잉을 처음배우는 사람들에게
+                        마스터를 연결해주고 자류로운 학습의 장을 만들어주는 사이트입니다
+
+                    </p>
+                </div>
+            </div>
             <div class="content-50">
                 <div class="imgBx">
                     <img src="img/rec.JPG">
                 </div>
             </div>
         </div>
-    </section>
+        <div>
+            <!-- /*card*/ -->
+            <div class="inner">
+                <div class="material-container ">
 
+                    <div class="marterial-title-container">
+                        <div class="marterial-title-container--title">
+                            위코잉이란? 💁
+                        </div>
+                        <div class="arrow-container">
+                            <i class="fas fa-angle-left slide-left"></i>
+                            <i class="fas fa-angle-right slide-right"></i>
+                        </div>
+                    </div>
+
+                    <ul class="class-list" data-position="0">
+                        <li class="class-card">
+                            <img src="img/wecoding_content.png" alt="코잉스터디 플랫폼 위코잉" class="class-image" />
+                            <div class="class-container">
+                                <div class="class-desc">
+                                    <div class="class-title">
+                                        코잉스터디 플랫폼 위코잉
+                                    </div>
+                                    <div class="calss-detail">
+                                        코잉이 처음이세요?
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="class-card">
+                            <img src="img/wecoing-introduce2.png" alt="코잉스터디 플랫폼 위코잉" class="class-image" />
+                            <div class="class-container">
+
+                                <div class="class-desc">
+                                    <div class="class-title">
+                                        위코잉 설립이유
+                                    </div>
+                                    <div class="calss-detail">
+                                        코잉에대한 관심 증가
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="class-card">
+                            <img src="img/wecoing-introduce3.png" alt="코잉스터디 플랫폼 위코잉" class="class-image" />
+                            <div class="class-container">
+                                <div class="class-desc">
+                                    <div class="class-title">
+                                        위코잉 학습방법 (1)
+                                    </div>
+                                    <div class="calss-detail">
+                                        프로젝트 개설
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="class-card">
+                            <img src="img/wecoing-introduce4.png" alt="코잉스터디 플랫폼 위코잉" class="class-image" />
+                            <div class="class-container">
+                                <div class="class-desc">
+                                    <div class="class-title">
+                                        위코잉 학습방법 (2)
+                                    </div>
+                                    <div class="calss-detail">
+                                        프로젝트 선택
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="class-card">
+                            <img src="img/wecoing-introduce5.png" alt="코잉스터디 플랫폼 위코잉" class="class-image" />
+                            <div class="class-container">
+                                <div class="class-desc">
+                                    <div class="class-title">
+                                        위코잉 학습방법 (3)
+                                    </div>
+                                    <div class="calss-detail">
+                                        프로젝트 실행
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="class-card">
+                            <img src="img/wecoing-introduce6.png" alt="코잉스터디 플랫폼 위코잉" class="class-image" />
+                            <div class="class-container">
+                                <div class="class-desc">
+                                    <div class="class-title">
+                                        포트폴리오 관리
+                                    </div>
+                                    <div class="calss-detail">
+                                        Github
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- 페이지메뉴  -->
     <section class="menu" id="menu">
         <div class="title">
             <h2 class="title-Text">위코잉의 <span>페이지</span>를 소개합니다</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia quia architecto distinctio sed tempore ipsam saepe numquam dolorum eos magnam laboriosam omnis dolores accusantium illo reprehenderit sit, commodi ipsum expedita!</p>
+
         </div>
         <div class="content">
-            
+
             <div class="box">
                 <div class="imgBx">
                     <img src="img/rec.JPG">
@@ -94,81 +209,120 @@
             <a href="#" class="btn">보러가기</a>
         </div>
     </section>
-
+    <!-- 마스터 소개  -->
     <section class="master" id="master">
         <div class="title">
-            <h2 class="title-Text">위코딩의 대표 <span>마스터</span>를 소개합니다! </h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia quia architecto distinctio sed tempore ipsam saepe numquam dolorum eos magnam laboriosam omnis dolores accusantium illo reprehenderit sit, commodi ipsum expedita!</p>
+            <h2 class="title-Text"><span>마스터</span>를 소개합니다! </h2>
         </div>
         <div class="content">
             <div class="box">
                 <div class="imgBx">
-                    <img src="img/rec.JPG">
+                    <img src="img/master-card2.png">
+                    <div class="imgOveray">
+                        <div class="master-title">프론트앤드</div>
+                        <p>진행중인 프로젝트</p>
+                        <hr>
+                       
+                    </div>
                 </div>
                 <div class="text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur quisquam illo quibusdam magni fugit quas amet est aliquam fugiat natus, consequuntur unde tenetur ducimus. Iste laudantium fugiat non ad iusto.</p>
-                    <h3>hddddd</h3>
-                </div>
-            </div>
-            <div class="box">
-                <div class="imgBx">
-                    <img src="img/rec.JPG">
-                </div>
-                <div class="text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur quisquam illo quibusdam magni fugit quas amet est aliquam fugiat natus, consequuntur unde tenetur ducimus. Iste laudantium fugiat non ad iusto.</p>
-                    <h3>hddddd</h3>
-                </div>
-            </div>
-            <div class="box">
-                <div class="imgBx">
-                    <img src="img/rec.JPG">
-                </div>
-                <div class="text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur quisquam illo quibusdam magni fugit quas amet est aliquam fugiat natus, consequuntur unde tenetur ducimus. Iste laudantium fugiat non ad iusto.</p>
-                    <h3>hddddd</h3>
-                </div>
-            </div>
 
-            <div class="box">
-                <div class="imgBx">
-                    <img src="img/rec.JPG">
-                </div>
-                <div class="text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur quisquam illo quibusdam magni fugit quas amet est aliquam fugiat natus, consequuntur unde tenetur ducimus. Iste laudantium fugiat non ad iusto.</p>
-                    <h3>hddddd</h3>
+                    <h3>김원희 마스터</h3>
+               
                 </div>
             </div>
-
             <div class="box">
                 <div class="imgBx">
-                    <img src="img/rec.JPG">
+                    <img src="img/master-card3.png"/>
+                    <div class="imgOveray">
+                        <div class="master-title">프론트앤드</div>
+                        <p>진행중인 프로젝트</p>
+                        <hr>
+                       
+                    </div>
                 </div>
                 <div class="text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur quisquam illo quibusdam magni fugit quas amet est aliquam fugiat natus, consequuntur unde tenetur ducimus. Iste laudantium fugiat non ad iusto.</p>
-                    <h3>hddddd</h3>
+                    <h3>김원희 마스터</h3>
+
+                 
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/master-card4.png">
+                    <div class="imgOveray">
+                        <div class="master-title">프론트앤드</div>
+                        <p>진행중인 프로젝트</p>
+                        <hr>
+                       
+                    </div>
+                </div>
+                <div class="text">
+                    <h3>김원희 마스터</h3>
+                   
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/master-card5.png">
+                    <div class="imgOveray">
+                        <div class="master-title">프론트앤드</div>
+                        <p>진행중인 프로젝트</p>
+                        <hr>
+                    
+                    </div>
+                </div>
+                <div class="text">
+                    <h3>김원희 마스터</h3>
+                   
                 </div>
             </div>
         </div>
     </section>
-
-    <section class="wecoing" id="wecoing">
+    <!-- 학생들 후기  -->
+    <section class="review" id="review">
         <div class="title white">
-            <h2 class="title-Text">위코딩의 대표 <span>마스터</span>를 소개합니다! </h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia quia architecto distinctio sed tempore ipsam saepe numquam dolorum eos magnam laboriosam omnis dolores accusantium illo reprehenderit sit, commodi ipsum expedita!</p>
+            <h2 class="title-Text">위코잉 학생들의 생생 <span>후기</span> </h2>
+
         </div>
         <div class="content">
-            <div class="imgBx">
-                <img src="img/rec.JPG">
-
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/reviewer-1.png">
+                </div>
+                <div class="text">
+                    <h2>김*식(32)</h2>
+                    <p>다른일을 하고있지만 위코잉을 통해 프로젝트를 진행하며 코딩에대해 제대로 알아볼수있었습니다</p>
+                </div>
             </div>
-            <div class="text">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa facilis amet aliquam, perferendis natus incidunt qui odio! Quis minus, similique accusamus, nesciunt repudiandae consequuntur ducimus id sapiente numquam atque natus!..</p>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/reviewer-2.png">
+                </div>
+                <div class="text">
+                    <h2>이*희(23)</h2>
+                    <p>마스터와 함께 실시간 수업을 진행하니 모르는 부분을 바로바로 질문할수있어서 너무 좋았어요 :)</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/reviewer-3.png">
+                </div>
+                <div class="text">
+                    <h2>박*팔(27)</h2>
+                    <p>다른 학생들과 함께 수업에 참여하고 프로젝트를 같이하면서 얻은게 정말 많았어요</p>
+                </div>
             </div>
         </div>
     </section>
 
 
     <script src="js/js.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/cardScroll.js"></script>
     <script src="js/master.js"></script>
 </body>
+
 </html>

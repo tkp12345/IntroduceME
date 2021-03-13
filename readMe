@@ -2,13 +2,19 @@
 
  ---
 
+  ✔ hover 효과시 전체 요소에 속성을 주는방식
+
+    .master .content .box .imgBx .imgOveray > *{
+    
+    }
+
 ✔ body{
     
    *min-height: 1000px;
     full creen  스크롤 
 }
 ✔ .banner{
-   * 반응형 웹디자인 기술은 퍼센트 값에의존
+   *반응형 웹디자인 기술은 퍼센트 값에의존
     height: 100vh;
     =>스크린의 너비값에 꽉 차는 헤드라인
     -vh : 높이값의 100분의 1의 :  높이값이 900px일때 1vh는 9px
@@ -18,7 +24,7 @@
 }
 
 ✔ .btn{
-    text-transform: uppercase;
+    *text-transform: uppercase;
 
     한글에서는 의미가 없는 속성이다 
     none : 입력된 그대로 출력 .
@@ -38,7 +44,7 @@
 }
 
 ✔ .btn:hover{
-    letter-spacing:6px;
+   * letter-spacing:6px;
 
     hover 를 가지고 letter-spacing 을 늘려주면 동적인 버튼 생성가능
     글자 길이에 따라 버튼이 늘어난다
@@ -73,6 +79,14 @@
   position: relative;
   width: 48%;
 }
+
+ ✔ classList를 이용하면 클래스를 조작하는 다양한 메서드들을 쓸 수 있다.
+    classList.add : 클래스를 필요에 따라 삽입한다.
+    classList.remove : 클래스를 필요에 따라 제거한다.
+    classList.contains : 값이 존재하는지 체크한다. (true/false)
+    classList.toggle(): 클래스값이 있는지 체크하고 없으면 더하고 있으면 제거한다
+ 
+  ✔ 반응형 제작시 padding 조절하여 화면 비율을 유지한다
 
 js.js
 
