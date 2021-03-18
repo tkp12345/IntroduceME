@@ -26,9 +26,6 @@ p {
   background-blend-mode: multiply;
   opacity: 0.7;
   object-fit: cover;
-
-  
-
   background-size: cover;
 }
 .banner .content {
