@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -7,56 +8,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>안녕하세요 위코잉 입니다</title>
     <link rel="stylesheet" href="css.css">
+    <!-- Icon library -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- AOS Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
     <header>
-        <a href="#" class="logo"><img src="img/wecoing-logo.png"></a>
+        <!-- <a href="#" class="logo"><img src="img/wecoing-logo.png"></a> -->
         <div class="menuToggle" onclick="Menu();"></div>
         <ul class="nav">
             <li><a href="#banner">메인</a></li>
-            <li><a href="#banner">위코잉이란?</a></li>
-            <li><a href="#banner">사이트소개</a></li>
-            <li><a href="#banner">마스터</a></li>
-            <li><a href="#banner">후기</a></li>
+            <li><a href="#banner">자기소개</a></li>
+            <li><a href="#banner"></a></li>
+            <li><a href="#banner">포트폴리오</a></li>
+            <li><a href="#banner">연락</a></li>
         </ul>
     </header>
 
-    <section class="banner" id="banner">
+    <section class="banner" id="banner" >
         <div class="content">
-            <h2>교육 기회의 평등을 지향합니다</h2>
-            <p>모두에게 평등한 교육서비스 위코잉
-            </p>
-            <a href="https://tkp12345.github.io/WeCoding-/" class="btn">보러가기</a>
+            <div class="content-text" data-aos="fade-right">
+                <h2>방문해주셔서 감사합니다!</h2>
+                <p><span>프론트엔드 주니어</span> 박건욱입니다
+                </p>
+            </div>
+            <!-- <a href="https://tkp12345.github.io/WeCoding-/" class="btn">보러가기</a> -->
+            <div class="content-icon">
+                <a href="https://github.com/tkp12345"><i class="fab fa-github icon"></i></a>
+                <a href="https://velog.io/@tkp12345"><i class="fas fa-home"></i></a>
+                <a href="https://github.com/tkp12345"><i class="fas fa-at"></i></a>
+            </div>
         </div>
     </section>
 
-    <section class="about" id="about">
-        <div class="row">
-            <div class="content-50">
-                <h2 class=title-Text>
-                    <span>위코잉</span>이란?
-                </h2>
-                <div class="title-Box">
-                    <p>2020년 참가한 창업경진대회 공모 발표작을 모티브로
-                        구현하게된 교육 플랫폼 입니다
-                        <br><br>
-                        위코잉은 코잉을 배우고싶은 ,코잉을 처음배우는 사람들에게
-                        마스터를 연결해주고 자류로운 학습의 장을 만들어주는 사이트입니다
-                    </p>
+    <section class="about" id="about" >
+        <div  class="row introduce">
+            <div class="content-title" data-aos="fade-right">
+                <p>"<span>공감</span>" 하는 개발자  
+            </div>
+            <div class="content-introduce">
+            <div class="content-left">
+                <div class="title-Box" data-aos="fade-right">
+                    <div class="inner">
+                        사용자의 측면에서 공감하는 프론트앤드 개발자가 되고 싶습니다. <br><br>
+                        효율적이고 편리한 삶을 만들어주는 프로그래밍을 시작하고 매력을 느꼈습니다. <br><br>
+                        다수의 사람을 편하게 해주고 싶은 욕심이 생겼고 그과정속에서 사용자를 이해시키고 공감하는<br>
+                        점이 중요하다고 느꼈습니다. <br>
+                        
+                        <!-- 저는 이런 역할을 수행하는 프론트앤드 개발자가 되고 싶습니다. <br>
+                        그러기 위해 깊은 CSS와 웹에 근간이 되는 자바스크립트.타입스크립트 언어를 꾸준히 학습하고<br>
+                        성과를 내는 실천하는 개발자가 되겠습니다.<br>
+                        이해하고 사용하는 것에 그치지 않고. 더 낳은 코드 더 효율적인 방식을 실천해보고 <br>
+                        팀원 간의 원활한 소통으로 팀 전체의 이익이 되도록 업무에 임하겠습니다.<br> -->
+                    </div>
                 </div>
             </div>
-            <div class="content-50">
-                <div class="imgBx">
-                    <img src="img/about_wecoing.jpg">
-                </div>
+            <div class="content-right">
+                <!-- <div class="imgBx">
+                    <img src="img/sympath.png">
+                </div> -->
+            </div>
             </div>
         </div>
         <div>
+     
             <!-- /*card*/ -->
-            <div class="inner">
+            <!-- <div class="inner">
                 <div class="material-container ">
 
                     <div class="marterial-title-container">
@@ -156,14 +176,14 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div> -->
 
         </div>
     </section>
-    <!-- 페이지메뉴  -->
-    <section class="menu" id="menu">
+    <!-- 포트폴리오  -->
+    <section class="menu" id="menu" data-aos="fade-right">
         <div class="title">
-            <h2 class="title-Text">위코잉의 <span>페이지</span>를 소개합니다</h2>
+            <h2 class="title-Text">포트폴리오</h2>
 
         </div>
         <div class="content">
@@ -328,6 +348,13 @@
     <script src="js/menu.js"></script>
     <script src="js/cardScroll.js"></script>
     <script src="js/master.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 400,
+          duration: 1000
+      });
+    </script>
 </body>
 
 </html>
