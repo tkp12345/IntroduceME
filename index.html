@@ -6,29 +6,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>안녕하세요 위코잉 입니다</title>
+    <title>안녕하세요 박건욱 입니다 :) </title>
     <link rel="stylesheet" href="css.css">
     <!-- Icon library -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <!-- AOS Library -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
     <header>
-        <!-- <a href="#" class="logo"><img src="img/wecoing-logo.png"></a> -->
         <div class="menuToggle" onclick="Menu();"></div>
         <ul class="nav">
             <li><a href="#banner">메인</a></li>
-            <li><a href="#banner">자기소개</a></li>
-            <li><a href="#banner"></a></li>
-            <li><a href="#banner">포트폴리오</a></li>
-            <li><a href="#banner">연락</a></li>
+            <li><a href="#about">자기소개</a></li>
+            <li><a href="#skills">스킬</a></li>
+            <li><a href="#portpflio">포트폴리오</a></li>
+            <li><a href="#touch">연락</a></li>
         </ul>
     </header>
 
-    <section class="banner" id="banner" >
+    <section class="banner" id="banner">
         <div class="content">
             <div class="content-text" data-aos="fade-right">
                 <h2>방문해주셔서 감사합니다!</h2>
@@ -44,20 +44,21 @@
         </div>
     </section>
 
-    <section class="about" id="about" >
-        <div  class="row introduce">
+    <section class="about" id="about">
+        <div class="row introduce">
             <div class="content-title" data-aos="fade-right">
-                <p>"<span>공감</span>" 하는 개발자  
+                <p>"<span>공감</span>" 하는 개발자
             </div>
             <div class="content-introduce">
-            <div class="content-left">
+
                 <div class="title-Box" data-aos="fade-right">
                     <div class="inner">
                         사용자의 측면에서 공감하는 프론트앤드 개발자가 되고 싶습니다. <br><br>
-                        효율적이고 편리한 삶을 만들어주는 프로그래밍을 시작하고 매력을 느꼈습니다. <br><br>
-                        다수의 사람을 편하게 해주고 싶은 욕심이 생겼고 그과정속에서 사용자를 이해시키고 공감하는<br>
-                        점이 중요하다고 느꼈습니다. <br>
-                        
+                        모든사용자에게 웹접근성을 기반으로 <br><br>
+                        멋진 UI / UX 를 개발하는 프론트 개발자가 되고싶습니다.<br><br>
+                        "공감"을 갖는 프론트엔드 개발자가 서비스의 증진을 가져온다고 믿고 있습니다 <br>
+                    
+
                         <!-- 저는 이런 역할을 수행하는 프론트앤드 개발자가 되고 싶습니다. <br>
                         그러기 위해 깊은 CSS와 웹에 근간이 되는 자바스크립트.타입스크립트 언어를 꾸준히 학습하고<br>
                         성과를 내는 실천하는 개발자가 되겠습니다.<br>
@@ -65,283 +66,490 @@
                         팀원 간의 원활한 소통으로 팀 전체의 이익이 되도록 업무에 임하겠습니다.<br> -->
                     </div>
                 </div>
-            </div>
-            <div class="content-right">
-                <!-- <div class="imgBx">
-                    <img src="img/sympath.png">
-                </div> -->
-            </div>
+
+
             </div>
         </div>
         <div>
+
+        </div>
+    </section>
+    <!-- skills  -->
+    <section class="skills" id="skills">
+        <div class="title">
+            <h2 class="title-Text"><span>S</span>kiils</h2>
+        </div>
+        <div class="content" data-aos="fade-up">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/skiils/react.png">
+                    <div class="imgOveray image-blur">
+                        <div class="master-title"></div>
+                        <br>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text">
+
+                    <h3>React</h3>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/skiils/js.png" />
+                    <div class="imgOveray image-blur">
+                        <div class="master-title"></div>
+                        <br>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text">
+                    <h3>JavaScript</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/skiils/node.png">
+                    <div class="imgOveray image-blur">
+                        <div class="master-title"></div>
+                        <br>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text">
+                    <h3>nodeJS</h3>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/skiils/angularjs.png">
+                    <div class="imgOveray image-blur">
+                        <div class="master-title"></div>
+                        <br>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text">
+                    <h3>AngularJS</h3>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/skiils/html5.png">
+                    <div class="imgOveray image-blur">
+                        <div class="master-title"></div>
+                        <br>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text">
+                    <h3>HTML5</h3>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/skiils/css.png">
+                    <div class="imgOveray image-blur">
+                        <div class="master-title"></div>
+                        <br>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text">
+                    <h3>CSS3</h3>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/skiils/git.jpg">
+                    <div class="imgOveray image-blur">
+                        <div class="master-title"></div>
+                        <br>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text">
+                    <h3>git</h3>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- portpflio  -->
+    <section class="section" id="portpflio" data-aos-duration="3000">
+      
+            <div>
+                <div class="section-title center">
+                    <h2>
+                        <span>P</span>ortfolio
+                    </h2>
+                </div>
+                <div class="row-sec">
+                    <div class="left-section" data-aos="fade-right"
+                    data-aos-easing="ease-in-sine">
+                        <div class="ui-device-slider">
+                            <div class="device">
+                                <img src="/img/device.png" alt="">
+                            </div>
+                            <div class="device-slider">
+                                <!-- slider [S]-->
+                                <div class="slidebox">
+                                    <input type="radio" name="slide" id="slide01" checked>
+                                    <input type="radio" name="slide" id="slide02">
+                                    <input type="radio" name="slide" id="slide03">
+                                    <ul class="slidelist">
+                                        <li class="slideitem">
+                                            <a><img src="./img/portfolio/askall-main.png"></a>
+                                        </li>
+                                        <li class="slideitem">
+                                            <a><img src="./img/portfolio/askall-detail.png"></a>
+                                        </li>
+                                        <li class="slideitem">
+                                            <a><img src="./img/portfolio/askall-b2b.png"></a>
+                                        </li>
+
+                                    </ul>
+                                    <div class="slide-control">
+                                        <div class="control01">
+                                            <label for="slide03" class="prev"></label>
+                                            <label for="slide02" class="next"></label>
+                                        </div>
+                                        <div class="control02">
+                                            <label for="slide01" class="prev"></label>
+                                            <label for="slide03" class="next"></label>
+                                        </div>
+                                        <div class="control03">
+                                            <label for="slide02" class="prev"></label>
+                                            <label for="slide01" class="next"></label>
+                                        </div>
+                                    </div>
+                                    <!-- 페이징 -->
+                                    <ul class="slide-pagelist">
+                                        <li><label for="slide01"></label></li>
+                                        <li><label for="slide02"></label></li>
+                                        <li><label for="slide03"></label></li>
+                                    </ul>
+                                </div>
+
+
+
+                                <!-- slider [E]-->
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-section">
+                        <div class="portfolio-Box">
+                            <div class="portfolio-title">
+                                <img src="/img/portfolio/ask_logo.png" alt="">
+                                페이지 프론트 제작 및 리뉴얼
+                            </div>
+                            <div class="portfolio-date">
+                                2021.03 ~ 2021.06 (근무)
+                            </div>
+                        </div>
+
+                        <div class="portfolio-explanation">
+                            <ul>
+                                <li>
+                                    <div class="portfolio-list">
+                                        <img src="/img/portfolio/red_arrow_down.png" alt="">
+            
+                                        AngularJS , JavaScript 사용 
+                                        
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="portfolio-list">
+                                        <img src="/img/portfolio/red_arrow_down.png" alt="">
+            
+                                        다물어 클럽 메인 반응형 페이지 리뉴얼   
+                                        
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="portfolio-list">
+                                        <img src="/img/portfolio/red_arrow_down.png" alt="">
+                                        카테고리별 반응형 상세페이지 개발   
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="portfolio-list">
+                                        <img src="/img/portfolio/red_arrow_down.png" alt="">
+                                        협력사 이메일 인증처리에 따른 로고변경 개발   
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="portfolio-list">
+                                        <img src="/img/portfolio/red_arrow_down.png" alt="">
+                                        다물어클럽 B2B 소개페이지 제작   
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <a href="https://askeverything.co.kr/#!/web/view/main" class="btn btn_color1">보러가기</a>
+
+                        <div class="portfolio-contentBox">
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row-sec">
+                    <div class="left-section2">
+
+                        <div class="portfolio-Box">
+                            <div class="portfolio-title">
+                                API를 활용한 영화 정보 찾기/검색 페이지 "요즘 머봐" 제작
+                            </div>
+                            <div class="portfolio-date">
+                                2021.07
+                            </div>
+                        </div>
+
+                        <div class="portfolio-explanation">
+                            <ul>
+                                <li>
+                                    <div class="portfolio-list">
+                                        <img src="/img/portfolio/red_arrow_down_puble.png" alt="">
+                                        React , Javascript 사용
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="portfolio-list">
+                                        <img src="/img/portfolio/red_arrow_down_puble.png" alt="">
+                                        유튜브API , 영화정보 API 를 활용
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="portfolio-list">
+                                        <img src="/img/portfolio/red_arrow_down_puble.png" alt="">
+                                        API 정보 받아와 영화정보 프론트 구현
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="portfolio-list">
+                                        <img src="/img/portfolio/red_arrow_down_puble.png" alt="">
+                                        검색API를 이용한 영화정보 검색 기능
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="https://tkp12345.github.io/VIDEO-API/" class="btn btn_color2">보러가기</a>
+                        <div class="portfolio-contentBox">
+                        </div>
+                    </div>
+                    <div class="right-section2"
+                    data-aos="fade-left"
+      
+     data-aos-easing="ease-in-sine">
+                        <div class="ui-device-slider">
+                            <div class="device">
+                                <img src="/img/device.png" alt="">
+                            </div>
+                            <div class="device-slider">
+                                <!-- slider [S]-->
+                                <div class="slidebox">
+                                    <!-- <input type="radio" name="slide" id="slide01" checked>
+                                    <input type="radio" name="slide" id="slide02">
+                                    <input type="radio" name="slide" id="slide03"> -->
+                                    <ul class="slidelist">
+                                        <li class="slideitem">
+                                            <a><img src="./img/portfolio/whatMovie_photo.png"></a>
+                                        </li>
+                                 
+
+                                    </ul>
+                                    <!-- <div class="slide-control">
+                                        <div class="control01">
+                                            <label for="slide03" class="prev"></label>
+                                            <label for="slide02" class="next"></label>
+                                        </div>
+                                        <div class="control02">
+                                            <label for="slide01" class="prev"></label>
+                                            <label for="slide03" class="next"></label>
+                                        </div>
+                                        <div class="control03">
+                                            <label for="slide02" class="prev"></label>
+                                            <label for="slide01" class="next"></label>
+                                        </div>
+                                    </div> -->
+                                    <!-- 페이징 -->
+                                    <!-- <ul class="slide-pagelist">
+                                    <li><label for="slide01"></label></li>
+                                    <li><label for="slide02"></label></li>
+                                    <li><label for="slide03"></label></li>
+                                </ul> -->
+                                </div>
+
+
+
+                                <!-- slider [E]-->
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row-sec">
+                    <div class="left-section" data-aos="fade-right"
+                    data-aos-easing="ease-in-sine">
+                        <div class="ui-device-slider">
+                            <div class="device">
+                                <img src="/img/device.png" alt="">
+                            </div>
+                            <div class="device-slider">
+                                <!-- slider [S]-->
+                                <div class="slidebox2">
+                                    <input type="radio" name="slide2" id="slide05" checked>
+                                    <input type="radio" name="slide2" id="slide06">
+                                    <input type="radio" name="slide2" id="slide07">
+                                    <input type="radio" name="slide2" id="slide08">
+                                    <ul class="slidelist2">
+                                        <li class="slideitem">
+                                            <a><img src="./img/portfolio/main.png"></a>
+                                        </li>
+                                        <li class="slideitem">
+                                            <a><img src="./img/portfolio/play.png"></a>
+                                        </li>
+                                        <li class="slideitem">
+                                            <a><img src="./img/portfolio/login.png"></a>
+                                        </li>
+                                        <li class="slideitem">
+                                            <a><img src="./img/portfolio/regist.png"></a>
+                                        </li>
+                                        
+
+                                    </ul>
+                                    <div class="slide-control2">
+                                        <div class="control05">
+                                            <label for="slide08" class="prev2"></label>
+                                            <label for="slide06" class="next2"></label>
+                                        </div>
+                                        <div class="control06">
+                                            <label for="slide05" class="prev2"></label>
+                                            <label for="slide07" class="next2"></label>
+                                        </div>
+                                        <div class="control07">
+                                            <label for="slide06" class="prev2"></label>
+                                            <label for="slide08" class="next2"></label>
+                                        </div>
+                                        <div class="control08">
+                                            <label for="slide07" class="prev2"></label>
+                                            <label for="slide05" class="next2"></label>
+                                        </div>
+                                    
+                                    </div>
+                                    <!-- 페이징 -->
+                                    <ul class="slide-pagelist2">
+                                        <li><label for="slide05"></label></li>
+                                        <li><label for="slide06"></label></li>
+                                        <li><label for="slide07"></label></li>
+                                        <li><label for="slide08"></label></li>
+                                    </ul>
+                                </div>
+
+
+
+                                <!-- slider [E]-->
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-section">
+                        <div class="portfolio-Box">
+                            <img src="" alt="">
+                            <div class="portfolio-title">
+                             
+                                nodejs 와 react 를 활용한 회원가입, 로그인 및 동영상 업로드 페이지
+                            </div>
+                            <div class="portfolio-date">
+                                2021.03 
+                            </div>
+                        </div>
+
+                        <div class="portfolio-explanation">
+                            <ul>
+                                <li>
+                                    <div class="portfolio-list">
+                                        <img src="/img/portfolio/red_arrow_down_orange.png" alt="">
+                                        로그인 회원가입 기능/페이지
+                                        
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="portfolio-list">
+                                        <img src="/img/portfolio/red_arrow_down_orange.png" alt="">
+                                        동영상 업로드,실행 페이지 
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="portfolio-list">
+                                        <img src="/img/portfolio/red_arrow_down_orange.png" alt="">
+                                        인증을 통한 로그인  및 회원가입 기능
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="portfolio-list">
+                                        <img src="/img/portfolio/red_arrow_down_orange.png" alt="">
+                                        라이브러리를 사용한 비디오 파일 업로드 
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="https://github.com/tkp12345/wecoing-ver.react-" class="btn btn_color3">보러가기</a>
+
+                        <div class="portfolio-contentBox">
+                            
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
      
-            <!-- /*card*/ -->
-            <!-- <div class="inner">
-                <div class="material-container ">
-
-                    <div class="marterial-title-container">
-                        <div class="marterial-title-container--title">
-                            💁 click!
-                        </div>
-                        <div class="arrow-container">
-                            <i class="fas fa-angle-left slide-left"></i>
-                            <i class="fas fa-angle-right slide-right"></i>
-                        </div>
-                    </div>
-
-                    <ul class="class-list" data-position="0">
-                        <li class="class-card">
-                            <img src="img/wecoding_content.jpg" alt="코잉스터디 플랫폼 위코잉" class="class-image" />
-                            <div class="class-container">
-                                <div class="class-desc">
-                                    <div class="class-title">
-                                        코잉스터디 플랫폼 위코잉
-                                    </div>
-                                    <div class="calss-detail">
-                                        코잉이 처음이세요?
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="class-card">
-                            <img src="img/wecoing-introduce2.jpg" alt="코잉스터디 플랫폼 위코잉" class="class-image" />
-                            <div class="class-container">
-
-                                <div class="class-desc">
-                                    <div class="class-title">
-                                        위코잉 설립이유
-                                    </div>
-                                    <div class="calss-detail">
-                                        코잉에대한 관심 증가
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="class-card">
-                            <img src="img/wecoing-introduce3.jpg" alt="코잉스터디 플랫폼 위코잉" class="class-image" />
-                            <div class="class-container">
-                                <div class="class-desc">
-                                    <div class="class-title">
-                                        위코잉 학습방법 (1)
-                                    </div>
-                                    <div class="calss-detail">
-                                        프로젝트 개설
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="class-card">
-                            <img src="img/wecoing-introduce4.jpg" alt="코잉스터디 플랫폼 위코잉" class="class-image" />
-                            <div class="class-container">
-                                <div class="class-desc">
-                                    <div class="class-title">
-                                        위코잉 학습방법 (2)
-                                    </div>
-                                    <div class="calss-detail">
-                                        프로젝트 선택
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="class-card">
-                            <img src="img/wecoing-introduce5.jpg" alt="코잉스터디 플랫폼 위코잉" class="class-image" />
-                            <div class="class-container">
-                                <div class="class-desc">
-                                    <div class="class-title">
-                                        위코잉 학습방법 (3)
-                                    </div>
-                                    <div class="calss-detail">
-                                        프로젝트 실행
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="class-card">
-                            <img src="img/wecoing-introduce6.jpg" alt="코잉스터디 플랫폼 위코잉" class="class-image" />
-                            <div class="class-container">
-                                <div class="class-desc">
-                                    <div class="class-title">
-                                        포트폴리오 관리
-                                    </div>
-                                    <div class="calss-detail">
-                                        Github
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div> -->
-
-        </div>
     </section>
-    <!-- 포트폴리오  -->
-    <section class="menu" id="menu" data-aos="fade-right">
-        <div class="title">
-            <h2 class="title-Text">포트폴리오</h2>
-
-        </div>
-        <div class="content">
-
-            <div class="box">
-                <div class="imgBx">
-                    <img src="img/login.page.JPG">
-                </div>
-                <div class="text">
-                    <h3>로그인</h3>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="imgBx">
-                    <img src="img/main.page.JPG">
-                </div>
-                <div class="text">
-                    <h3>메인</h3>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="imgBx">
-                    <img src="img/videoDetail.page.JPG">
-                </div>
-                <div class="text">
-                    <h3>강의 보기</h3>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="imgBx">
-                    <img src="img/videoUpload.page.JPG">
-                </div>
-                <div class="text">
-                    <h3>강의 업로드</h3>
-                </div>
-            </div>
-        </div>
-        <div class="title">
-            <a href="https://github.com/tkp12345/wecoing-ver.react-" class="btn">보러가기</a>
-        </div>
-    </section>
-    <!-- 마스터 소개  -->
-    <section class="master" id="master">
-        <div class="title">
-            <h2 class="title-Text"><span>마스터</span>를 소개합니다! </h2>
-        </div>
-        <div class="content">
-            <div class="box">
-                <div class="imgBx">
-                    <img src="img/master-card2.jpg">
-                    <div class="imgOveray image-blur">
-                        <div class="master-title">👨‍🏫진행중인 프로젝트</div>
-                        <br>
-                        <ul>
-                            <li>반응형? 프로젝트로 잡자!</li>
-                            <li>flexBox VS grid </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="text">
-
-                    <h3>김원희 마스터</h3>
-
-                </div>
-            </div>
-            <div class="box">
-                <div class="imgBx">
-                    <img src="img/master-card3.jpg" />
-                    <div class="imgOveray image-blur">
-                        <div class="master-title">👨‍🏫진행중인 프로젝트</div>
-                        <br>
-                        <ul>
-                            <li>JS로 풀어보는 객체지향</li>
-                            <li>TypeScript 기초 다잡기</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="text">
-                    <h3>원종철 마스터</h3>
-                </div>
-            </div>
-            <div class="box">
-                <div class="imgBx">
-                    <img src="img/master-card4.jpg">
-                    <div class="imgOveray image-blur">
-                        <div class="master-title">👨‍🏫진행중인 프로젝트</div>
-                        <br>
-                        <ul>
-                            <li>지도API 를 이용한 앱만들기</li>
-                            <li>스프링을 이용한 웹사이트구축</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="text">
-                    <h3>권원석 마스터</h3>
-
-                </div>
-            </div>
-            <div class="box">
-                <div class="imgBx">
-                    <img src="img/master-card5.jpg">
-                    <div class="imgOveray image-blur">
-                        <div class="master-title">👨‍🏫진행중인 프로젝트</div>
-                        <br>
-                        <ul>
-                            <li>HTML + CSS3 기초잡기</li>
-                            <li>코딩테스트로 알아보는 알고리즘</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="text">
-                    <h3>이영지 마스터</h3>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- 학생들 후기  -->
-    <section class="review" id="review">
-        <div class="title white">
-            <h2 class="title-Text">위코잉 학생들의 생생 <span>후기</span> </h2>
-
-        </div>
-        <div class="content">
-            <div class="box">
-                <div class="imgBx">
-                    <img src="img/reviewer-1.jpg">
-                </div>
-                <div class="text">
-                    <h2>김*식(32)</h2>
-                    <p>다른일을 하고있지만 위코잉을 통해 프로젝트를 진행하며 코딩에대해 제대로 알아볼수있었습니다</p>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="imgBx">
-                    <img src="img/reviewer-2.jpg">
-                </div>
-                <div class="text">
-                    <h2>이*희(23)</h2>
-                    <p>마스터와 함께 실시간 수업을 진행하니 모르는 부분을 바로바로 질문할수있어서 너무 좋았어요 :)</p>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="imgBx">
-                    <img src="img/reviewer-3.jpg">
-                </div>
-                <div class="text">
-                    <h2>박*팔(27)</h2>
-                    <p>다른 학생들과 함께 수업에 참여하고 프로젝트를 같이하면서 얻은게 정말 많았어요</p>
-                </div>
-            </div>
-        </div>
-    </section>
+   
+    <section>
+    <div class="section-footer" id="touch">
+        <div class="footer-icon">
+            <a href="https://github.com/tkp12345"><i class="fab fa-github github-icon"></i></a></a><br>
+            <i class="fas fa-envelope-square email-icon"></i>rjsdnrsla@naver.com<br>
+        </div class="footer-content">
+        <h5>좋은 기회 기다리겠습니다🙇‍♂️</h5>
+    </div>
+</div>
+</section>
 
 
     <script src="js/js.js"></script>
@@ -350,10 +558,10 @@
     <script src="js/master.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init({
-          offset: 400,
-          duration: 1000
-      });
+        AOS.init({
+            offset: 400,
+            duration: 1000
+        });
     </script>
 </body>
 
